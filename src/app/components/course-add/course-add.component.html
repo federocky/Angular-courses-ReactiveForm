@@ -1,0 +1,74 @@
+<form novalidate [formGroup]="myForm" class="container-sm" (ngSubmit)="onSubmit()">
+
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp"
+
+        [ngClass]="{ 'is-invalid': title.invalid && ( title.dirty || title.touched),
+                      'is-valid': title.valid    && ( title.dirty || title.touched)}"
+        formControlName="title">
+
+        <div class="invalid-feedback" *ngIf="title.errors && (title.dirty || title.touched)">
+            <span *ngIf="title.errors.required">title is required</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="img" class="form-label">Ruta Imagen</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp"
+
+        [ngClass]="{ 'is-invalid': img.invalid && ( img.dirty || img.touched),
+                      'is-valid': img.valid    && ( img.dirty || img.touched)}"
+        formControlName="img">
+
+        <div class="invalid-feedback" *ngIf="img.errors && (img.dirty || img.touched)">
+            <span *ngIf="img.errors.required">Image is required</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp"
+
+        [ngClass]="{ 'is-invalid': author.invalid && ( author.dirty || author.touched),
+                      'is-valid': author.valid    && ( author.dirty || author.touched)}"
+        formControlName="author">
+
+        <div class="invalid-feedback" *ngIf="author.errors && (author.dirty || author.touched)">
+            <span *ngIf="author.errors.required">Author is required</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="duration" class="form-label">Duration</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp"
+
+        [ngClass]="{ 'is-invalid': duration.invalid && ( duration.dirty || duration.touched),
+                      'is-valid': duration.valid    && ( duration.dirty || duration.touched)}"
+        formControlName="duration">
+
+        <div class="invalid-feedback" *ngIf="duration.errors && (duration.dirty || duration.touched)">
+            <span *ngIf="duration.errors.required">Duration is required</span>
+            <span *ngIf="duration.errors.min">Duration have to be greater than cero</span>
+            <span *ngIf="duration.errors.pattern">Duration has to be a number</span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="type" class="form-label">Type</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp"
+
+        [ngClass]="{ 'is-invalid': type.invalid && ( type.dirty || type.touched),
+                      'is-valid': type.valid    && ( type.dirty || type.touched)}"
+        formControlName="type">
+
+        <div class="invalid-feedback" *ngIf="type.errors && (type.dirty || type.touched)">
+            <span *ngIf="type.errors.required">Type is required</span>
+            <span *ngIf="type.errors.pattern">type has to be one of: web, videotutorial or course</span>
+        </div>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a [routerLink]="['list']" class="btn btn-danger ms-2">Cancel</a>
+  </form>

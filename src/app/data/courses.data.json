@@ -1,0 +1,116 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "title": "Getting Started with Angular Elements",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F219%2Fthumb%2FEGH_AngularElements_Final.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 40,
+      "type": "Course"
+    },
+    {
+      "id": 1,
+      "title": "Advanced Angular Component Patterns",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F215%2Fthumb%2FEGH_AdvAngularPatts_Final.png&w=96&q=75",
+      "author": "Isaac Man",
+      "duration": 31,
+      "type": "videotutorial"
+    },
+    {
+      "id": 2,
+      "title": "Angular Service Injection with the Dependency Injector (DI)",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F189%2Fthumb%2FEGH_AngularServicesDI-2.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 36,
+      "type": "web"
+    },
+    {
+      "id": 3,
+      "title": "SEO Friendly Progressive Web Applications with Angular Universal",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F173%2Fthumb%2FEGH_Angular-Universal_1000.png&w=96&q=75",
+      "author": "Bram Borggreve",
+      "duration": 28,
+      "type": "Course"
+    },
+    {
+      "id": 4,
+      "title": "Reactive State Management in Angular with ngrx",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F270%2Fthumb%2FEGH_ngrxAngular_Final.png&w=96&q=75",
+      "author": "Lukas Ruebekke",
+      "duration": 85,
+      "type": "videotutorial"
+    },
+    {
+      "id": 5,
+      "title": "Structure Angular Apps with Angular Material Components",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F150%2Fthumb%2FEGH_Angular_Material_Structure.png&w=96&q=75",
+      "author": "Briuan Troncone",
+      "duration": 43,
+      "type": "Course"
+    },
+    {
+      "id": 6,
+      "title": "Create Dynamic Forms in Angular",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F161%2Fthumb%2FEGH_A2_Dynamic_Forms_1000.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 27,
+      "type": "web"
+    },
+    {
+      "id": 7,
+      "title": "Create Dynamic Components in Angular",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F171%2Fthumb%2FEGH-angular-components__1000px.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 23,
+      "type": "Course"
+    },
+    {
+      "id": 8,
+      "title": "Learn HTTP in Angular",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F147%2Fthumb%2FEGH_AngularHTTP.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 42,
+      "type": "web"
+    },
+    {
+      "id": 9,
+      "title": "Understand How To Style Angular Components",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F132%2Fthumb%2FEGH_Angular_Style-Final.png&w=96&q=75",
+      "author": "Juri Strumpflohner",
+      "duration": 24,
+      "type": "Course"
+    },
+    {
+      "id": 10,
+      "title": "Building apps with Ionic 2",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F095%2Fthumb%2FEGH_Build_Ionic2_Final.png&w=96&q=75",
+      "author": "John Hartington",
+      "duration": 30,
+      "type": "videotutorial"
+    },
+    {
+      "id": 11,
+      "title": "Understand Angular Directives in Depth",
+      "img": "https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fsquare_covers%2F000%2F000%2F091%2Fthumb%2FEGH_A2_Directives_Final.png&w=96&q=75",
+      "author": "John Lindquist",
+      "duration": 28,
+      "type": "Course"
+    },
+    {
+      "title": "fede",
+      "img": "http://getdrawings.com/image/jam-drawing-52.jpg",
+      "author": "fede",
+      "duration": "23",
+      "type": "web",
+      "id": 12
+    },
+    {
+      "title": "Php para amos",
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F27%2FPHP-logo.svg%2F1200px-PHP-logo.svg.png&f=1&nofb=1",
+      "author": "El Fede",
+      "duration": "60",
+      "type": "course",
+      "id": 13
+    }
+  ]
+}
