@@ -1,27 +1,33 @@
-# Cursos
+# Courses app when learning reactive forms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+![Project Image](./main_img.png)
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
+A very simple TODO kind with small reactive form with some validations. Done when learning angular forms.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+First to run the json data as a server need to have install the package json-server.
+[NPM - Json-server](https://www.npmjs.com/package/json-server). Run the json with the command ```json-server --watch courses.data.json```
+To run the angular application run npm install to get the needed packages and ng serve -o to run it in a local server.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies
 
-## Running end-to-end tests
+- Angular
+- Type Script
+- Bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+---
+## Author Info
 
-## Further help
+- Linkedin - [Federico Andrés Jácome Castañeda](https://www.linkedin.com/in/federicojacome/)
+- Website - [To be added](https://github.com/federocky)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Back To The Top](#read-me-template)

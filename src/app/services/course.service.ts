@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class CourseService {
 
   //guardamos la ruta a la peticion
-  url: string = 'http://localhost:3001/courses';
+  url: string = 'http://localhost:3000/courses';
 
 
   constructor(private http: HttpClient) { }
